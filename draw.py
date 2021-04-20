@@ -47,7 +47,7 @@ def drawEAS(eas):
             X = l[0]
             Y = l[1]
         else:
-            print('Unaligned line : ' + str(l))
+            print('Unaligned line : {} and ({},{})'.format(str(l), X, Y))
 
 if len(sys.argv) < 2:
     print("Need a eas file")
